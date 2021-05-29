@@ -1,4 +1,4 @@
-# A Day in the Life CRM Customer
+# A Day in the Life CRM Students
 This presentation shows the activities in a day of CRM students. Each dot represents a person when someone change the activity such as from Sleeping to Traveling, the dot move accordingly.
 
 This presentation we group the activities to be 10 groups

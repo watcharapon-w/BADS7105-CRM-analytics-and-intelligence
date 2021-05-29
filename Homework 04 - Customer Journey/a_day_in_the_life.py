@@ -41,13 +41,10 @@ class dot(object):
         self.targetx = 0
         self.targety = 0
     
-    def current_pos(self):
-        return (self.x, self.y)
-    
     def get_pos(self, i):
 
-        intial_pos = [(4.1, 8.6), (6.2, 8.6), (8,7.1), (8.8,5.1), (8.1, 3.2), 
-                      (6.3, 1.2), (4.2,1.2), (2.4,3.2), (1.4,5.1), (2.1, 7.1)]
+        intial_pos = [(4.1, 8.6), (6.2, 8.6), (8.1,7.1), (8.8,5.1), (8.1, 3.2), 
+                      (6.2, 1.2), (4.2,1.2), (2.2,3.2), (1.4,5.1), (2.1, 7.1)]
 
         x_adjust = round(random.uniform(-0.2, 0.2),2)
         y_adjust = round(random.uniform(-0.2, 0.2),2)
@@ -75,12 +72,12 @@ class dot(object):
 
                 self.distx = self.get_pos(self.event[time_state]-1)[0] - self.x
                 self.disty = self.get_pos(self.event[time_state]-1)[1] - self.y
-                self.walk_count = 10
+                self.walk_count = 15
 
         # The real move of dot. (10 step from start to end)
         if(self.walk_count > 0):
-            self.x += (self.distx/10)
-            self.y += (self.disty/10)
+            self.x += (self.distx/15)
+            self.y += (self.disty/15)
             self.walk_count -= 1
 
 def get_percentage(activity_count):
@@ -145,10 +142,10 @@ ax.text(5.8, 9.5, 'DailyRoutine', fontname='sans-serif', fontsize=20,
 daily_percentage = ax.text(6.15, 9.1, '0.0%', fontname='sans-serif',
                            fontsize=12,fontstyle='italic', color='dimgrey')
 
-ax.text(7.8, 8, 'Travel', fontname='sans-serif', fontsize=20, 
+ax.text(7.8, 8, 'Traveling', fontname='sans-serif', fontsize=20, 
         fontstyle='italic', color='black', fontweight='light')
 
-travel_percentage = ax.text(7.94, 7.6, '0.0%', fontname='sans-serif',
+travel_percentage = ax.text(8.05, 7.6, '0.0%', fontname='sans-serif',
                             fontsize=12,fontstyle='italic', color='dimgrey')
 
 ax.text(9.2, 5, 'Eating', fontname='sans-serif', fontsize=20, 
@@ -157,10 +154,10 @@ ax.text(9.2, 5, 'Eating', fontname='sans-serif', fontsize=20,
 eating_percentage = ax.text(9.35, 4.6, '0.0%', fontname='sans-serif',
                        fontsize=12,fontstyle='italic', color='dimgrey')
 
-ax.text(7.8, 2.5, 'Coffee', fontname='sans-serif', fontsize=20, 
+ax.text(7.8, 2.5, 'CoffeeTime', fontname='sans-serif', fontsize=20, 
         fontstyle='italic', color='black', fontweight='light')
 
-coffee_percentage = ax.text(7.95, 2.1, '0.0%', fontname='sans-serif',
+coffee_percentage = ax.text(8.15, 2.1, '0.0%', fontname='sans-serif',
                        fontsize=12,fontstyle='italic', color='dimgrey')
 
 ax.text(5.8, 0.5, 'Working', fontname='sans-serif', fontsize=20, 
@@ -175,10 +172,10 @@ ax.text(3.8, 0.5, 'Meeting', fontname='sans-serif', fontsize=20,
 meeting_percentage = ax.text(4.0, 0.1,'0.0%', fontname='sans-serif',
                        fontsize=12,fontstyle='italic', color='dimgrey')
 
-ax.text(1.8, 2.5, 'Entertainment', fontname='sans-serif', fontsize=20, 
+ax.text(1.8, 2.5, 'Relaxing', fontname='sans-serif', fontsize=20, 
         fontstyle='italic', color='black', fontweight='light')
 
-entertainment_percentage = ax.text(2.3, 2.1, '0.0%', fontname='sans-serif',
+relaxing_percentage = ax.text(2, 2.1, '0.0%', fontname='sans-serif',
                        fontsize=12,fontstyle='italic', color='dimgrey')
 
 ax.text(0.4, 5, 'Learning', fontname='sans-serif', fontsize=20, 
@@ -194,7 +191,7 @@ exercise_percentage = ax.text(2, 7.6, '0.0%', fontname='sans-serif',
                        fontsize=12,fontstyle='italic', color='dimgrey')
 
 d, = ax.plot([dot.x for dot in dots],
-             [dot.y for dot in dots], 'ro')
+             [dot.y for dot in dots], 'o', color='forestgreen')
 
 def animate(i):
     # print(i)
@@ -212,14 +209,13 @@ def animate(i):
         coffee_percentage.set_text(get_percentage(dot.activity_count[4]))
         office_percentage.set_text(get_percentage(dot.activity_count[5]))
         meeting_percentage.set_text(get_percentage(dot.activity_count[6]))
-        entertainment_percentage.set_text(get_percentage(dot.activity_count[7]))
+        relaxing_percentage.set_text(get_percentage(dot.activity_count[7]))
         learning_percentage.set_text(get_percentage(dot.activity_count[8]))
         exercise_percentage.set_text(get_percentage(dot.activity_count[9]))
-        
         
         timer.set_text(timer_string(i * 1))
     return d,
 
-anim = animation.FuncAnimation(fig, animate, frames=1440, interval=50)
+anim = animation.FuncAnimation(fig, animate, frames=1440, interval=25)
 
 plt.show()
