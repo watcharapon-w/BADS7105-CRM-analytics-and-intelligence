@@ -11,11 +11,13 @@ class dot(object):
 
     activity_count = [0, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0]
 
-    def __init__(self, event):
+    def __init__(self, event, gender):
         
         pos_init = self.get_pos(event[0]-1)
         self.current_event = event[0]
         self.activity_count[event[0]-1] += 1
+
+        self.gender = gender
 
         # Keep person information in dot
         self.event = event
@@ -107,10 +109,11 @@ total_member = len(df)
 # Select the specific information to add to the dot
 data = []
 for idx in range(0,len(df)):
-    data.append(list(df.iloc[idx][2:]))
+    data.append(list(df.iloc[idx][1:]))
 
 # Initializing dots 
-dots = [dot(person) for person in data]
+dots_m = [dot(person[1:], person[0]) for person in data if person[0] == 'M']
+dots_f = [dot(person[1:], person[0]) for person in data if person[0] == 'F']
 
 # First set up the figure, the axis, and the plot element we want to animate
 fig = plt.figure()
@@ -190,17 +193,26 @@ ax.text(1.8, 8, 'Exercise', fontname='sans-serif', fontsize=20,
 exercise_percentage = ax.text(2, 7.6, '0.0%', fontname='sans-serif',
                        fontsize=12,fontstyle='italic', color='dimgrey')
 
-d, = ax.plot([dot.x for dot in dots],
-             [dot.y for dot in dots], 'o', color='forestgreen')
+# Plot dot
+dm, = ax.plot([dot.x for dot in dots_m],
+             [dot.y for dot in dots_m], 'o', color='deepskyblue')
+
+df, = ax.plot([dot.x for dot in dots_f],
+             [dot.y for dot in dots_f], 'o', color='hotpink')
+
+total_dot = dots_m + dots_f
 
 def animate(i):
     # print(i)
-    for dot in dots:
+    for dot in total_dot:
 
         dot.move(i//30)
         
-        d.set_data([dot.x for dot in dots],
-                   [dot.y for dot in dots])
+        dm.set_data([dot.x for dot in dots_m],
+                   [dot.y for dot in dots_m])
+
+        df.set_data([dot.x for dot in dots_f],
+                   [dot.y for dot in dots_f])
 
         sleeping_percentage.set_text(get_percentage(dot.activity_count[0]))
         daily_percentage.set_text(get_percentage(dot.activity_count[1]))
@@ -214,7 +226,8 @@ def animate(i):
         exercise_percentage.set_text(get_percentage(dot.activity_count[9]))
         
         timer.set_text(timer_string(i * 1))
-    return d,
+
+    return dm,
 
 anim = animation.FuncAnimation(fig, animate, frames=1440, interval=25)
 
