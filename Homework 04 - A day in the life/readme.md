@@ -22,10 +22,6 @@ This presentation we group the activities to be 10 groups
 
 ![chart](./getup.png)
 
-1. We have a friend who work hard all day long.
-
-![chart](./outlier.png)
-
 2. We also somebody who take sleep on noon.
 
 ![chart](./sleeping.png)
@@ -33,3 +29,7 @@ This presentation we group the activities to be 10 groups
 3. Women stay late at night more than male
 
 ![chart](./gotobedlate.png)
+
+4. We have a friend who work hard all day long.
+
+![chart](./outlier.png)
