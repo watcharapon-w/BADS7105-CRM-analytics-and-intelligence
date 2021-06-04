@@ -15,3 +15,21 @@ This presentation we group the activities to be 10 groups
 
 ## Example
 ![chart](./example_clip.gif)
+
+## The things that we fonund
+
+1. Students more than 50% getup before 7:30 AM
+
+![chart](./getup.png)
+
+1. We have a friend who work hard all day long.
+
+![chart](./outlier.png)
+
+2. We also somebody who take sleep on noon.
+
+![chart](./sleeping.png)
+
+3. Women stay late at night more than male
+
+![chart](./gotobedlate.png)
