@@ -4,9 +4,9 @@
 
 ### [Homework 02 – Jobs to be done](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2002%20-%20Jobs%20to%20be%20done)
 
-### [Homework 03 - Value proposition](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2003%20-%20Customer%20journey)
+### [Homework 03 - Customer joutney](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2003%20-%20Customer%20journey)
 
-### [Homework 04 – Customer Journey](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2004%20-%20A%20day%20in%20the%20life)
+### [Homework 04 – A day in the life](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2004%20-%20A%20day%20in%20the%20life)
 
 ### [Homework 05 – CLV Dashboard](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2005%20-%20CLB%20Dashboard)
 
@@ -22,4 +22,4 @@
 
 ### [Homework 11 – Customer Voice Analysis](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2011%20-%20Design%20Thinking)
 
-### [Homework 12 - Design Thinking](https://www.google.com)
+### [Homework 12 - Design Thinking](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2012%20-%20Design%20Thinking)
