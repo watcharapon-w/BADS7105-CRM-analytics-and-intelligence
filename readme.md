@@ -8,7 +8,7 @@
 
 ### [Homework 04 – A day in the life](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2004%20-%20A%20day%20in%20the%20life)
 
-### [Homework 05 – CLV Dashboard](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2005%20-%20CLB%20Dashboard)
+### [Homework 05 – CLV Dashboard](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2005%20-%20CLV%20Dashboard)
 
 ### [Homework 06 – Customer Segmentation](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2006%20-%20Customer%20Segmentation) 
 
