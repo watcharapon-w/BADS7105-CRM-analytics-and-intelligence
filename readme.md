@@ -8,18 +8,18 @@
 
 ### [Homework 04 – A day in the life](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2004%20-%20A%20day%20in%20the%20life)
 
-### [Homework 05 – CLV Dashboard](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2005%20-%20CLV%20Dashboard)
+### Homework 05 – CLV Dashboard
 
-### [Homework 06 – Customer Segmentation](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2006%20-%20Customer%20Segmentation) 
+### Homework 06 – Customer Segmentation
 
-### [Homework 07 – Product Recommendation](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2007%20-%20Product%20Recommendation)
+### Homework 07 – Product Recommendation
 
-### [Homework 08 - Campaign Response Model](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2008%20-%20Campaign%20Response%20Model)
+### Homework 08 - Campaign Response Model
 
 ### [Homework 09 – A/B Testing](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2009%20-%20A:B%20Testing)
 
 ### [Homework 10 – Customer Movement Analysis](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2010%20-%20Customer%20Movement%20Analysis)
 
-### [Homework 11 – Customer Voice Analysis](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2011%20-%20Design%20Thinking)
+### Homework 11 – Customer Voice Analysis
 
 ### [Homework 12 - Design Thinking](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2012%20-%20Design%20Thinking)
