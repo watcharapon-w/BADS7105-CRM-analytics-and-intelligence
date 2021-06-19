@@ -8,5 +8,6 @@ The survey asking about intersts and consumptions of 30 things from CRM students
 **Age Distribution**
 ![age](./Age.png)
 
-## Correlation between interests and consumptions
+## Correlation 
+This graph will show correlation between interests and consumptions.
 ![corr](./corr.png)
