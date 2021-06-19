@@ -1,6 +1,6 @@
 # BADS-7105
 
-### [Homework 01 – Analysis of customer behaviors](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2001%20-%20Analysis%20of%20customer%20behaviors)
+### [Homework 01 – Analysis of customer behaviors](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2001%20-%20Analysis%20of%20Customer%20Behaviors)
 
 ### [Homework 02 – Jobs to be done](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2002%20-%20Jobs%20to%20be%20done)
 
