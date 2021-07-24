@@ -9,7 +9,7 @@ Check the top 10 items that brought by CRM students
 **Top 10 popular items**
 ![top10](./Top10.png)
 
-Check the frequent itemsets that has support more than 0.8
+# Check the frequent itemsets that has support more than 0.8
 
 **Top 10 set of 2 items**
 ![table2](./table2.png)

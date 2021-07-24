@@ -12,7 +12,7 @@
 
 ### Homework 06 – Customer Segmentation
 
-### Homework 07 – Product Recommendation
+### [Homework 07 – Product Recommendation](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2007%20-%20Product%20Recommendation)
 
 ### Homework 08 - Campaign Response Model
 
