@@ -20,6 +20,6 @@
 
 ### [Homework 10 – Customer Movement Analysis](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2010%20-%20Customer%20Movement%20Analysis)
 
-### Homework 11 – Customer Voice Analysis
+### [Homework 11 – Customer Voice Analysis](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2011%20-%20Customer%20voice%20analysis)
 
 ### [Homework 12 - Design Thinking](https://github.com/watcharapon-w/BADS7105-CRM-analytics-and-intelligence/tree/main/Homework%2012%20-%20Design%20Thinking)
